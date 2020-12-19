@@ -1,0 +1,29 @@
+
+a {
+   color: #333;
+   text-decoration: none;
+}
+
+.container {
+   padding: 0 1rem;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+   margin-top: 10px;
+}
+
+.btn {
+   display: inline-block;
+   border: none;
+   background: rgba(26, 100, 211, 0.541);
+   color: rgb(26, 26, 26);
+   color: rgba(26, 26, 26, 0.712);
+   padding: 7px 20px;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background: rgba(26, 100, 211, 0.89);
+}

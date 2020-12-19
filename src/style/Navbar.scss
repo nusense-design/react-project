@@ -1,0 +1,18 @@
+.navbar {
+   min-width: 100%;
+   min-height: 10vh;
+   display: flex;
+   background: rgb(26, 26, 26);
+   color: #ffffff;
+   justify-content: space-around;
+   align-items: center;
+   ul {
+      display: flex;
+      li {
+         list-style: none;
+         flex: 1;
+         margin: 0 20px;
+         
+      }
+   }
+}

@@ -1,0 +1,23 @@
+.user,.SignUp{
+   width: 70%;
+   margin: 0 auto;
+   form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 10px solid rgba(112, 89, 100, 0.685);
+      min-height: 70vh;
+      input {
+         width: 40%;
+         padding: 10px;
+      }
+      
+      p {
+        font-size: 0.8rem;
+        margin-left: 25%;
+        padding: 10px;
+      }
+      
+   }
+}
